@@ -29,6 +29,23 @@
   <ItemGroup>
     <None Include="activities.csv" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.vcxproj">
+      <Project>{de862e0b-d7c5-40f1-81c9-087c8c02b37b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Exceptions\Exceptions.vcxproj">
+      <Project>{fdf6d326-3632-462e-a3b1-b174a4b93fb9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\Repository.vcxproj">
+      <Project>{180ee593-adc6-4cf4-b7bb-2facda5c92f9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Service\Service.vcxproj">
+      <Project>{a0a19721-c113-43e7-b424-446b0bbac05a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils\Utils.vcxproj">
+      <Project>{8cafc01d-436b-4353-8f31-63ecbd041075}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{24AF8F73-00A2-4E4C-9AD8-7490748D1D0B}</ProjectGuid>
     <Keyword>QtVS_v304</Keyword>
